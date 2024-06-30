@@ -1,4 +1,6 @@
 
+package Loops;
+
 public class MultiplicationTable {
     public static void main(String[] args) {
         int n=5 , i;
