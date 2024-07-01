@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class SearchingAnElement {
 public static void main(String[] args) {
 
-    int sum=0;
     int A[] = {3,9,7,8,12,6,5,15,4,10};
     
 
@@ -17,8 +16,8 @@ public static void main(String[] args) {
             System.out.println("Element found at " + i);
             System.exit(0);
         }
-        
+
     }
-    System.out.println(sum);
+    System.out.println("not found");
 }
 }
