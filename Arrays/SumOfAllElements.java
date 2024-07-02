@@ -8,6 +8,6 @@ public static void main(String[] args) {
     for(int i=0; i<A.length;i++){
         sum = sum + A[i];
     }
-    System.out.println(sum);
+    System.out.println(sum);klll
 }
 }
