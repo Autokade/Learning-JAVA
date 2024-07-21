@@ -1,0 +1,18 @@
+public class information {
+    public static void main(String[] args) {
+        String str = "abcd";
+
+str.charAt(2);       // c
+str.indexOf("a") ;    // 0
+str.indexOf("z");     // -1
+str.length();        // 4
+str.toString();      // abcd
+str.substring(2);    // cd
+str.substring(2,3);  // c
+str.contains("c");   // true
+str.endsWith("d");   // true
+str.startsWith("a"); // true
+str.isEmpty();       // false
+
+    }
+}
